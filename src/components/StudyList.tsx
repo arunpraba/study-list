@@ -185,7 +185,7 @@ const App: React.FC = () => {
         >
           <textarea
             value={newItem}
-            onChange={(e) => setNewItem(e.target.value.trim())}
+            onChange={(e) => setNewItem(e.target.value)}
             placeholder="What do you want to study?"
           />
           <div>
